@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  width: 100%;
+  height: 10%;
+  background-color: #c0c0c0;
+  text-align: center;
+  font-size: 500%;
+}
+
+#startArea {
+  width: 10%;
+  height: 800px;
+  background-color: #8080ff;
+  float: left;
+}
+
+.v-line {
+  border-left: 3px solid black;
+  height: 87%;
+  left: 10%;
+  position: absolute;
+}
+
+#runArea {
+  width: 70%;
+  height: 800px;
+  background-color: #aadda2;
+  float: left;
+}
+
+#finishArea {
+  width: 20%;
+  height: 800px;
+  background-color: #8080ff;
+  float: left;
+}
+
+#results {
+  width: 200px;
+  height: 100%;
+  background-color: #aadda2;
+  float: left;
+}
+
+#bottom {
+  width: 100%;
+  height: 10%;
+  background-color: #c0c0c0;
+  position: absolute;
+  bottom: 0;
+}
+
+#startbutton {
+  width: 10%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+img {
+  /* 말 크기*/
+  position: relative;
+  margin: 10% 0% 0% 10%;
+  width: 100px;
+  height: 138px;
+}

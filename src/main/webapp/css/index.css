@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+  margin: 0 auto;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+#header {
+  width: 100%;
+  height: 15%;
+  background-color: skyblue;
+}
+
+#title {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 60pt;
+  font-weight: 600;
+}
+
+section {
+  width: auto;
+  height: 75%;
+}
+
+#aside1 {
+  width: 10%;
+  height: 100%;
+  background-color: rgb(129, 99, 44);
+  float: left;
+}
+
+#content {
+  width: 80%;
+  height: 100%;
+  background-color: green;
+  float: left;
+}
+
+.forline {
+  width: auto;
+  height: 25%;
+  border-bottom: 1px solid black;
+}
+
+#aside2 {
+  width: 10%;
+  height: 100%;
+  background-color: rgb(129, 99, 44);
+  float: left;
+}
+
+#footer {
+  width: 100%;
+  height: 10%;
+  background-color: pink;
+}
+
+#startbutton {
+  text-align: center;
+  padding: 25px 40px;
+  margin-left: 47%;
+  margin-top: 12px;
+  font-size: 30pt;
+  border-radius: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
